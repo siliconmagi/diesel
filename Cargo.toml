@@ -1,0 +1,9 @@
+[package]
+name = "dsel"
+version = "0.1.0"
+authors = ["zeal"]
+
+[dependencies]
+diesel = { version = "0.11.0", features = ["postgres"] }
+diesel_codegen = { version = "0.11.0", features = ["postgres"] }
+dotenv = "0.8.0"
